@@ -30,43 +30,51 @@ nav li {
 nav a {
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #00ffc3;
+	color: #00BFFF;
 	font-weight: 800;
 	letter-spacing: 2px;
 }
 
 #title{
-font-size: 40px;
-text-align: center;
-color: #298OB9;
+ font-size: 40px;
+ text-align: center;
+ color: #00BFFF;
 }
 
-
-
-#container-home {
-  opacity: 0.5;
+#container-Home {
+  opacity: 0.7;
   display: inline-block;
-  height: 100px;
-  width: 100px;
+  height: 600px;
+  width: 100%;
+  background: url("/images/motion.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   }
-  #container-About{
-  opacity: 0.5;
+#container-About{
+  opacity: 0.7;
   display: inline-block;
-  height: 100px;
+  height: 600px;
   width: 100px;
+  background: url("/images/boat.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   }
-
 #container-LearnIt{
-  opacity: 0.5;
+  opacity: 0.7;
   display: inline-block;
-  height: 100px;
+  height: 600px;
   width: 100px;
+  background: url("/images/fish.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   }
-
 #container-InAction{
-opacity: 0.5;
+  opacity: 0.7;
   display: inline-block;
-  height: 100px;
+  height: 600px;
   width: 100px;
+  background: url("/images/hands.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
