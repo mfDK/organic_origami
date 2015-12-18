@@ -125,3 +125,6 @@ footer {
 	margin-top: 25px;
 	color: #00BFFF;
 }
+img.fade {
+display: none;
+}
