@@ -42,7 +42,6 @@ nav a {
 }
 
 #container-Home {
-  opacity: 0.5;
   height: 600px;
   width: 100%;
   background: url("/images/motion.jpg");
@@ -51,7 +50,6 @@ nav a {
   }
 
 #container-About{
-  opacity: 0.5;
   height: 700px;
   width: 100%;
   background: url("/images/boat.jpg");
@@ -71,16 +69,36 @@ nav a {
 	font-size: 30px;
 }
 
-#container-LearnIt{
-  opacity: 0.5;
+#container-LearnIt {
   height: 700px;
   width: 100%;
   background: url("/images/fish.jpg");
   background-repeat: no-repeat;
   background-position: center;
   }
+
+#links-div {
+	height: 200px;
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+	text-align: center;
+}
+
+.title {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 23px;
+	color: white;
+	font-weight: 900;
+}
+
+.title:hover {
+	color: #00BFFF;
+}
+
 #container-InAction{
-  opacity: 0.5;
   height: 700px;
   width: 100%;
   background: url("/images/hands.jpg");
