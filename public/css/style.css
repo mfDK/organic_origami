@@ -35,6 +35,19 @@ nav a {
 	letter-spacing: 2px;
 }
 
+#logo {
+	height: 60px;
+	width: 100px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+
+#logo a {
+	font-size: 50px;
+	font-weight: 900;
+}
+
 #title{
  font-size: 40px;
  text-align: center;
@@ -47,6 +60,7 @@ nav a {
   background: url("/images/motion.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 20px;
   }
 
 #container-About{
@@ -55,18 +69,20 @@ nav a {
   background: url("/images/boat.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  text-align: center;
   }
 
 #about-us {
 	width: 50%;
 	height: 600px;
 	margin: 0 auto;
-	text-align: center
+	position: relative;
+	top: 50px;
 }
 
 #about-title {
-	margin-top: 30px;
-	font-size: 30px;
+	color: white;
+	font-size: 40px;
 }
 
 #container-LearnIt {
